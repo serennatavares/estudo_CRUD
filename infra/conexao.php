@@ -2,15 +2,13 @@
 
 $host = "localhost";
 $usuario = "root";
-$senha = "root";
-$banco = "livraria_serenna_2";
+$senha = "";
+$banco = "estudo_CRUD";
 
 $conexao = new mysqli ($host, $usuario, $senha, $banco);
 
-if ($conexao->connect_error) {
-die("Erro na conexão com o banco: " . $conexao->connect_error);
-};
-
-$conexao->set_charset("utf8mb4");
+if ($conexao->connect_error){
+    die("Erro na conexão: " . $conexao->connect_error);
+}
 
 ?>

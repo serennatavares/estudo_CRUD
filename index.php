@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Pratos</title>
-    <link rel="stylesheet" href="style.css">
-
+    <tittle>CRUD - Menu</tittle>
 </head>
 
 <body>
-    <main>
-        <h1>Gerenciador de Pratos</h1>
-        <a href="public/cadastrar_pratos">Novo Prato</a>
-        <a href="public/cadastrar_usuarios">Novo Usuário</a>
-        <br>
-        <br>
 
-        <form method ="POST">
-            <label for="usuario">Filtro por Usuário</label>
-            <SELECT id="usuario" name = "usuario">
-                <option value="">Todos</option>
+    <h1>CRUD de Usuários</h1>
 
+    <a href="public/cadastrar.php">
+        <button>Cadastrar usuário</button>
+    </a>
+
+    <a href="public/listar.php">
+        <button>Listar usuários</button>
+    </a>
+
+    <a href="public/editar.php">
+        <button>Editar usuário</button>
+    </a>
+
+    <a href="public/excluir.php">
+        <button>Excluir usuário</button>
+    </a>
+
+</body>
+
+</html>
